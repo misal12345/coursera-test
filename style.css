@@ -1,125 +1,43 @@
-/*basic style*/
-    * {
-        box-sizing: border-box;
-    }
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
 
-    body {
-        background-color: white;
-    }
+/* Container for the Menu */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-    h1 {
-       margin-bottom: 15px;
+/* Header Styling */
+.header {
+    background: #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Title and Section Headings */
+h1, h2 {
     text-align: center;
-    color: #ff4532;
-    font-size: 50px;
-    }
+}
 
-    section {
-        position: relative;
-        padding: 15px;
-        width: 90%;
-    }
+/* Menu Section Styling */
+.menu-section {
+    background: #ddd;
+    padding: 15px;
+    margin-top: 20px;
+}
 
-    p {
-        position: relative;
-        clear: right;
-    }
+/* Chicken Title Styling */
+.menu-section h3 {
+    text-align: center;
+    font-weight: bold;
+}
 
-    div {
-        position: relative;
-        background-color: gray;
-        border: 3.5px solid black;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-    }
-
-    .sub1 {
-        float: right;
-        width: 100px;
-        padding: 5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: #FFB6C1;
-
-    }
-
-    .sub2 {
-        float: right;
-        color: white;
-        width: 100px;
-        padding: 5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: #FF0000;
-
-    }
-
-    .sub3 {
-        color: black;
-        float: right;
-        width: 100px;
-        padding: 5px;
-         margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: rgb(223, 212, 121);
-
-    }
-
-    .content {
-        padding: 5px;
-        border: none;
-        background-color: gray;
-        font-family: Helvetica;
-        color: black;
-        margin: 3px ;
-        height: 150px;
-        overflow: auto;
-    }
-
-    .row {
-        width: 90%;
-    }
-
-    /*desktop version*/
-    @media (min-width: 992px) {
-        .column-lg-4 {
-            float: left;
-            width: 33.33%;
-        }
-    }
-
-    /*tablet version*/
-    @media (min-width: 768px) and (max-width: 991px) {
-        .colmn-md-6 {
-            float: left;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .colmn-md-12 {
-            float: left;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
-    /*mobile version*/
-    @media (max-width: 767px) {
-        .colmn-sm-12 {
-            float: left;
-            width: 100%;
-        }
-    }
